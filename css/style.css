@@ -1,0 +1,323 @@
+/* Navbar container */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(248, 121, 142);
+  /* Light red background */
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+  margin: 6px;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Active link styling for navbar links */
+.navbar .active {
+  background-color: rgba(245, 31, 67, 0.76);
+  /* Slightly darker red */
+  font-weight: bold;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: rgb(243, 103, 126);
+  font-weight: bold;
+}
+
+/* Dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button styling */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Match navbar font style */
+  margin: 0;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  /* Light grey background */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(240, 202, 202, 0.931);
+  /* Shadow for depth */
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Active dropdown item */
+.dropdown-content .active-dropdown {
+  background-color: rgb(243, 117, 138);
+  /* Highlighted background for active item */
+  color: white;
+  /* White text for better contrast */
+  font-weight: bold;
+  /* Bold font for emphasis */
+}
+
+/* Hover effects for dropdown links */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  /* Light grey hover background */
+}
+
+/* Hover effects for active dropdown item */
+.dropdown-content a.active-dropdown:hover {
+  background-color: rgb(247, 12, 67);
+  /* Slightly darker highlight */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  background-color: #f1e0ed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#survey-form {
+  background-color: pink;
+  max-width: 600px;
+  min-width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.header {
+  text-align: center;
+  /* Centers the text horizontally */
+}
+
+.header h1,
+.header p {
+  margin: 0;
+  /* Removes default margins */
+  padding: 10px 0;
+  /* Adds vertical padding for spacing */
+}
+
+hr {
+  border-color: rgba(245, 31, 67, 0.76);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  display: inline-element;
+}
+
+textarea:focus {
+  border-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  display: block;
+  margin: 20px 0px 0px 0px;
+  min-width: 20rem;
+
+  text-align: "center";
+  background-color: rgb(244, 114, 136);
+  color: white;
+  font-weight: bold;
+  border: 2px solid rgb(253, 114, 138);
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  border-color: rgb(248, 181, 193);
+}
+
+button[type="submit"]:focus {
+  outline: none;
+  box-shadow: 3px 3px 1px 1px rgb(182, 83, 100);
+  blur-radius: 150deg;
+}
+
+h1 {
+  font-family: "Impact"
+}
+
+label {
+  font-family: "arial";
+  width: 100%;
+}
+
+legend {
+  font-family: "arial";
+  font-weight: bold;
+  width: 100%;
+  font-size: 125%;
+
+}
+.spacing{
+  height: 80px;
+  background-color: rgb(255, 255, 255, 0);
+  border-color: rgb(255, 255, 255, 0);
+}
+.smallFieldset{
+  display: inline-block;
+  width: 50%;
+}
+.jovians-image{
+  display: inline-block;
+  width: 45%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.contract-image{
+  display: inline-block;
+  width: 41%;
+  margin-top: auto;
+  margin-bottom: -2rem;
+  margin-left: 26px;
+}
+.full-screen-image{
+  display: inline-block;
+  width: 100%;
+  margin-top: auto;
+}
+.jovians-page{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255, 0);
+}
+
+
+.normalSection{
+  background-color: rgba(255,255,255,0);
+}
+fieldset {
+  border-color: rgb(63, 19, 26);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+textarea {
+  display: block;
+  width: 30rem;
+}
+
+section {
+  background-color: rgb(253, 114, 138);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.main-page-button {
+  background-color: rgb(246, 62, 93);
+  display: block;
+  margin-left: 40%;
+  margin-right: 30%;
+
+}
+
+.main-link {
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: Impact;
+}
+
+.main-page {
+  text-align: center;
+  margin-top: 40%;
+  margin-bottom: 40%;
+}
+
+.myDreamPlanet{
+  width: 100%;
+  height: auto;
+}
+.myDreamPlanet-Details{
+  width: 600px;
+  height: auto;
+  background-color: rgb(255, 255, 255, 0);
+  margin: auto;
+}
+
+.indent {
+  margin-right: 8px;
+  /* Space to simulate indentation */
+  display: inline-block;
+}
+
+.essay-margin {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.font-size{
+  font-size: 10rem
+}

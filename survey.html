@@ -1,0 +1,78 @@
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Page Title</title>
+  </head>
+  <body >
+    <nav>
+    <div class="navbar">
+      <!-- Main navigation links -->
+      <a href="#home" class="active">Home</a>
+      <a href="#details">Details</a>
+  
+      <!-- Dropdown menu -->
+      <div class="dropdown">
+        <button class="dropbtn">
+          More
+          <i class="fa fa-caret-down"></i> <!-- Optional caret icon -->
+        </button>
+        <div class="dropdown-content">
+          <a href="survey.html" class="active-dropdown">Survey 📋</a>
+          <a href="./DreamPlanet-home.html">Dream Planet 🪐✨</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <div class="header">
+    <h1 id="title">Dream Planet Survey</h1>
+    <p id="description">This is for your dream planet</p>
+    </div>
+    <form id="survey-form">
+      
+      <fieldset>
+        <legend>Personal Details</legend>
+        <section>
+        <label id="name-label">Your <strong>Name</strong><input required id="name" type="text" placeholder="your name" value=""></input></label>
+      </section>
+      <section>
+      <label for="email" id="email-label">Your <strong>Email</strong><input required id="email" type="email" placeholder="your email" value=""></email></label>
+      </section>
+      <section>
+      <label id="number-label">Your <strong>Age</strong><input required id="number" type="number" min="5" max="120" placeholder="your age" value=""></input></label>
+      </section>
+      
+      </fieldset>
+      
+      <fieldset>
+        <label><strong>Terestial Life</strong> 🛸</label>
+        <legend>About Your Planet</legend>
+        <select id="dropdown">
+        <option>Has trestial life</option>
+        <option>Doesn't have trestial life</option>
+        <option>Used to have trestial life</option>
+      </select>
+      <hr/>
+      <label><strong>Planet Sales</strong> 💵</label>
+      <label><input name="is-for-sale" value=" " checked type="radio"></input>Planet For Sale</label>
+      <label><input  name="is-for-sale" value=" " type="radio"></input>Planet Not For Sale</label>
+      <hr/>
+      <label><strong>Terms and Conditions</strong> 📝</label>
+      <label><input name="terms-conditions" value=" " checked type="checkbox"></input>I agree to the terms and condition that state that I allow for you to see this information</label>
+      <label><input name="add-suggetion" value=" " checked type="checkbox"></input>I want to suggest a suggestion to the webstite</label>
+      <hr/>
+      <label>Put a <strong>picture<strong> of your planet. <input type="file"></input></label>
+      <hr/>
+      <label><strong>Suggestion</strong> 🎯</label>
+      <textarea placeholder="This is optional if you want to add a suggestion"></textarea>
+      </fieldset>
+      
+      
+      <button id="submit"type="submit">Submit</input>
+    </form>
+    
+
+  </body>
+</html>
+</body>
