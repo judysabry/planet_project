@@ -214,43 +214,50 @@ legend {
   font-size: 125%;
 
 }
-.spacing{
+
+.spacing {
   height: 80px;
   background-color: rgb(255, 255, 255, 0);
   border-color: rgb(255, 255, 255, 0);
 }
-.smallFieldset{
+
+.smallFieldset {
   display: inline-block;
   width: 50%;
 }
-.jovians-image{
+
+.jovians-image {
   display: inline-block;
   width: 45%;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.contract-image{
+
+.contract-image {
   display: inline-block;
   width: 41%;
   margin-top: auto;
   margin-bottom: -2rem;
   margin-left: 26px;
 }
-.full-screen-image{
+
+.full-screen-image {
   display: inline-block;
   width: 100%;
   margin-top: auto;
 }
-.jovians-page{
+
+.jovians-page {
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(255, 255, 255, 0);
 }
 
 
-.normalSection{
-  background-color: rgba(255,255,255,0);
+.normalSection {
+  background-color: rgba(255, 255, 255, 0);
 }
+
 fieldset {
   border-color: rgb(63, 19, 26);
   padding: 10px;
@@ -291,11 +298,12 @@ h2 {
   margin-bottom: 40%;
 }
 
-.myDreamPlanet{
+.myDreamPlanet {
   width: 100%;
   height: auto;
 }
-.myDreamPlanet-Details{
+
+.myDreamPlanet-Details {
   width: 600px;
   height: auto;
   background-color: rgb(255, 255, 255, 0);
@@ -312,12 +320,15 @@ h2 {
   padding-right: 16px;
   padding-left: 16px;
 }
-p{
+
+p {
   font-family: Arial, Helvetica, sans-serif;
 }
-h3{
+
+h3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.font-size{
+
+.font-size {
   font-size: 10rem
 }
