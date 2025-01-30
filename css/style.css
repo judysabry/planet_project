@@ -220,6 +220,11 @@ legend {
   background-color: rgb(255, 255, 255, 0);
   border-color: rgb(255, 255, 255, 0);
 }
+.smallSpacing {
+  height: 8px;
+  background-color: rgb(255, 255, 255, 0);
+  border-color: rgb(255, 255, 255, 0);
+}
 
 .smallFieldset {
   display: inline-block;
@@ -332,3 +337,62 @@ h3 {
 .font-size {
   font-size: 10rem
 }
+.normalBody {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); /* Responsive columns */
+  gap: 10px; /* Space between grid items */
+  min-width: none;
+}
+
+.image-container {
+  position: relative;
+  background-color: #ffffff00;
+  border: 1px solid #cccccc00;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.tag-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.tag-overlay::before {
+  content: attr(data-tag);
+}
+
+.more-button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  font-size: medium;
+}
+
