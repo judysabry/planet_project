@@ -200,7 +200,7 @@ button[type="submit"]:hover {
 button[type="submit"]:focus {
   outline: none;
   box-shadow: 3px 3px 1px 1px rgb(182, 83, 100);
-  blur-radius: 150deg;
+  filter: blur(15px);
 }
 
 h1 {
