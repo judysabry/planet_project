@@ -400,4 +400,10 @@ h3 {
   border-left: 1px solid #CCCCCC;
   font-size: medium;
 }
+.center {
+  margin: auto;
+  width: 100%;
+  background-color: #ffffff00;
+}
+
 
