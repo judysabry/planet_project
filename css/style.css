@@ -354,7 +354,12 @@ h3 {
   background-color: rgba(255, 255, 255, 0);
   font-family: Arial, sans-serif;
 }
-
+.moreGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Space between grid items */
+  min-width: none;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); /* Responsive columns */
@@ -405,5 +410,11 @@ h3 {
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   font-size: medium;
+}
+
+table, th, td {
+  border:0.5px solid black;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 

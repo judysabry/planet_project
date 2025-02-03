@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">          
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../css/style.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <section class="normalBody"> 
+      <div class="essay-margin"></div>
+      <h1>Bravery Escape Room</h1>
+      <hr></hr>
+      <div class="gallery">
+        <div class="image-container">
+            <img src="./../../images/Bravery_Escape_Room.png" alt="Bravery_Escape_Room">
+            <div class="tag-overlay" data-tag="Bravery Escape Room"></div>
+        </div>
+
+        <div class="image-container">
+            <h1>What is The Bravery Escape Room?</h1>
+            <p><strong>The Bravery Escape Room</strong> is where you face your greatest fear and get a price.</p>
+        </div>
+
+        
+    </div>
+    
+    <table>
+        <tr>
+          <th><h1>Prices</h1></th>
+          <th><h2><span class="indent"></span>Where it is From or Where to go<span class="indent"></span></h2></th>
+          <th><h2><span class="indent"></span>Discount<span class="indent"></span></h2></th>
+        </tr>
+        <tr>
+          <td><span class="indent"></span>Candy Healthy Yummy Ice Cream <span class="indent"></span></td>
+          <td><span class="indent"></span>Jovian Restuarnt<span class="indent"></span></td>
+          <td><span class="indent"></span>100%<span class="indent"></span></td>
+        </tr>
+        <tr>
+          <td><span class="indent"></span> Food tastic Jovian Salad<span class="indent"></span></td>
+          <td><span class="indent"></span>Jovian Restuaant <span class="indent"></span></td>
+          <td><span class="indent"></span>100%<span class="indent"></span></td>
+        </tr>
+        <tr>
+            <td><span class="indent"></span> Jovian amazing meat<span class="indent"></span></td>
+            <td><span class="indent"></span>Jovian Restuaant <span class="indent"></span></td>
+            <td><span class="indent"></span>100%<span class="indent"></span></td>
+        </tr>
+        <tr>
+            <td><span class="indent"></span> Discount on any meal in Jovian Resturant<span class="indent"></span></td>
+            <td><span class="indent"></span>Jovian Restuaant <span class="indent"></span></td>
+            <td><span class="indent"></span>50%<span class="indent"></span></td>
+        </tr>
+        <tr>
+            <td><span class="indent"></span> Get A Free Ride In The Park<span class="indent"></span></td>
+            <td><span class="indent"></span>Fun Park<span class="indent"></span></td>
+            <td><span class="indent"></span>50%<span class="indent"></span></td>
+        </tr>
+        <tr>
+            <td><span class="indent"></span> Eat Candy<span class="indent"></span></td>
+            <td><span class="indent"></span>Fun Park<span class="indent"></span></td>
+            <td><span class="indent"></span>100%<span class="indent"></span></td>
+        </tr>
+        <tr>
+            <td><span class="indent"></span> 50% discount on anything you buy<span class="indent"></span></td>
+            <td><span class="indent"></span>Anywhere<span class="indent"></span></td>
+            <td><span class="indent"></span>50%<span class="indent"></span></td>
+        </tr>
+      </table>
+      
+        <div class="essay-margin"></div>
+        <h1>Bravery Escape Room</h1>
+        <div class="gallery">
+          <div class="image-container">
+              <img src="./../../images/Bravery_Escape_Room.png" alt="Bravery_Escape_Room">
+              <div class="tag-overlay" data-tag="Bravery Escape Room"></div>
+          </div>
+  
+          <div class="image-container">
+            <h1>How To Get Their</h1>
+            <p><strong>First</strong> go to the Fun Street</p>
+            <p><strong>Second</strong> then go strait to <strong>Bravery Escape Room</strong> you will see it from far away then go their.</p>
+          </div>
+        </div>
+      <a href="./../DreamPlanet-moreAtractions.html" class="more-button">⟨ Back</a>
+      <div class="essay-margin"></div>
+    </section>
+    
+    
+</body>
