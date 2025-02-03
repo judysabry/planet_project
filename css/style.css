@@ -13,7 +13,7 @@ nav {
   border-radius: 4px;
   margin: 6px;
   top: 0;
-  z-index: 1000;
+  z-index: 10;
 }
 
 /* Active link styling for navbar links */
@@ -278,14 +278,20 @@ textarea {
   display: block;
   width: 30rem;
 }
-
+.center{
+  margin: auto;
+  width: 100%;
+  background-color: #ffffff00;
+}
 section {
-  background-color: rgb(253, 114, 138);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
 }
-
+.pinkSection{
+  background-color: rgb(253, 114, 138);
+}
 .main-page-button {
   background-color: rgb(246, 62, 93);
   display: block;
@@ -400,10 +406,4 @@ h3 {
   border-left: 1px solid #CCCCCC;
   font-size: medium;
 }
-.center {
-  margin: auto;
-  width: 100%;
-  background-color: #ffffff00;
-}
-
 
