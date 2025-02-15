@@ -14,6 +14,7 @@ nav {
   margin: 6px;
   top: 0;
   z-index: 10;
+  
 }
 
 /* Active link styling for navbar links */
@@ -38,6 +39,19 @@ nav {
   font-weight: bold;
 }
 
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 /* Dropdown container */
 .dropdown {
   float: left;
@@ -499,5 +513,5 @@ table,th,td{
   padding: 5px 10px;
   border-radius: 5px;
 }
-/* Navbar container */
+/* Scrollable Navbar container */
  
